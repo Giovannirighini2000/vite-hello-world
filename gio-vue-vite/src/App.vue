@@ -2,10 +2,10 @@
 // import
 import message from './components/AppTitle.vue'
 // registrarlo
-export default{
-  components:{
-  message
-}
+export default {
+  components: {
+    message
+  }
 }
 
 </script>
@@ -20,7 +20,9 @@ export default{
   </div>
   <!-- iserimento normale -->
   <message></message>
-
+  <div>
+    <img src="./assets/img.png" alt="">
+  </div>
 </template>
 
 <style scoped>
@@ -30,9 +32,11 @@ export default{
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
